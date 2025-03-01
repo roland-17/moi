@@ -1,0 +1,413 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    font-family: arial;
+    font-weight: Arial, Helvetica, sans-serif;
+}
+
+body{
+    
+}
+
+header{
+    background-color: rebeccapurple;
+    padding: 20PX;
+    margin: auto;
+    text-align: center;
+    align-items: center;
+    flex-wrap: wrap;
+     border-radius: 12PX;
+     border: 1PX solid white;
+     animation: rol 3s forwards;
+     
+}
+
+
+
+
+@keyframes rol{
+    0%{
+       width: 15PX; 
+       font-size: 0.5rem;
+    }
+
+    100%{
+        width: 100%;
+    }
+} 
+@keyframes ROLE{
+    0%{
+        opacity: O;
+        
+    }
+
+    100%{
+        opacity: 1;
+        
+    }
+}
+
+
+.titre .letter{
+opacity: 0;
+display: inline-block;
+animation: ROLE 0.5s forwards; 
+font-weight: 30PX;
+}
+
+.titre .letter:nth-child(1){
+    animation-delay: 0s;
+}
+
+.titre .letter:nth-child(2){
+    animation-delay: 0.2s;
+}
+
+.titre .letter:nth-child(3){
+    animation-delay: 0.4s;
+}
+
+.titre .letter:nth-child(4){
+    animation-delay: 0.6s;
+}
+
+.titre .letter:nth-child(5){
+    animation-delay: 0.8s;
+}
+
+.titre .letter:nth-child(6){
+    animation-delay: 1s;
+}
+.titre .letter:nth-child(7){
+    animation-delay: 1.2s;
+}
+
+.titre .letter:nth-child(8){
+    animation-delay: 1.4s;
+}
+
+.titre .letter:nth-child(9){
+    animation-delay: 1.6s;
+}
+
+.titre .letter:nth-child(10){
+    animation-delay: 1.8s;
+}
+
+.titre .letter:nth-child(11){
+    animation-delay: 2s;
+}
+
+.titre .letter:nth-child(12){
+    animation-delay: 2.2s;
+}
+
+.titre .letter:nth-child(13){
+    animation-delay: 2.4s;
+}
+
+.titre .letter:nth-child(14){
+    animation-delay: 2.6s;
+}
+.titre .letter:nth-child(15){
+    animation-delay: 2.8s;
+}
+
+.titre .letter:nth-child(16){
+    animation-delay: 3s;
+}
+
+.titre .letter:nth-child(17){
+    animation-delay: 3.2s;
+}
+
+.titre .letter:nth-child(18){
+    animation-delay: 3.4s;
+}
+
+.titre .letter:nth-child(19){
+    animation-delay: 3.6s;
+}
+.titre .letter:nth-child(20){
+    animation-delay: 3.8s;
+}
+
+.titre .letter:nth-child(21){
+    animation-delay: 4s;
+}
+
+.titre .letter:nth-child(22){
+    animation-delay: 4.2s;
+}
+
+.titre .letter:nth-child(23){
+    animation-delay: 4.6s;
+}
+.titre .letter:nth-child(24){
+    animation-delay: 4.8s;
+}
+
+.titre .letter:nth-child(25){
+    animation-delay: 5s;
+}
+
+.UN{
+    width: 100%;
+    height: 437px;
+    position: relative;
+    display: flex;
+    background-color: gray;
+    margin-bottom: 100PX;
+}
+
+.GRAD{
+    width: 40%;
+    height: 73%;
+    position: absolute;
+    background:linear-gradient(to bottom , rgba(71, 19, 19, 0),gray);
+    margin-top: 100PX;
+   
+}
+
+@keyframes pers{
+    0%{
+        opacity: 0;
+        transform: translateX(-100PX);
+    }
+    50%{
+        opacity: 0.5;
+        transform: translateX(50PX);
+    }
+   100%{
+     opacity: 1;
+     transform: translateX(0PX);
+   }
+}
+
+.texte{
+    width: 60%;
+    height: 100%;
+    margin-left: 550PX;
+    animation: perso 3s;
+    padding: 30PX;
+    display: grid;
+    grid-template-columns: 1FR;
+    grid-template-rows:repeat(5,auto) ;
+    gap: 5PX;
+}
+@keyframes perso{
+    0%{
+        opacity: 0;
+        transform: translateX(100PX);
+    }
+    100%{
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+.menu{
+    background-color: red;
+}
+
+.impresso{
+  display: flex;
+  gap: 5PX;
+  font-weight: 30PX;
+  font-size: 1rem;
+}
+
+.impresso .moi{
+    animation: ROLE 0.5s forwards;
+    opacity: 0;
+    display: inline-block;
+}
+
+.impresso .moi:nth-child(1){
+    animation-delay: 0s;
+}
+
+.impresso .moi:nth-child(2){
+    animation-delay: 0.2s;
+}
+
+.impresso .moi:nth-child(3){
+    animation-delay: 0.4s;
+}
+.impresso .moi:nth-child(4){
+    animation-delay: 0.6s;
+}
+
+.impresso .moi:nth-child(5){
+    animation-delay: 0.8s;
+}
+
+.impresso .moi:nth-child(6){
+    animation-delay: 1s;
+}
+
+.impresso .moi:nth-child(7){
+    animation-delay: 1.2s;
+}
+
+.impresso .moi:nth-child(8){
+    animation-delay: 1.4s;
+}
+
+.impresso .moi:nth-child(9){
+    animation-delay: 1.6s;
+}
+
+.impresso .moi:nth-child(10){
+    animation-delay: 1.8s;
+}
+
+.impresso .moi:nth-child(11){
+    animation-delay: 2s;
+}
+
+.impresso .moi:nth-child(12){
+    animation-delay: 2.2s;
+}
+
+.impresso .moi:nth-child(13){
+    animation-delay: 2.4s;
+}
+
+.impresso .moi:nth-child(14){
+    animation-delay: 2.6s;
+}
+
+.impresso .moi:nth-child(15){
+    animation-delay: 2.8s;
+}
+
+.impresso .moi:nth-child(16){
+    animation-delay: 3s;
+}
+
+.impresso .moi:nth-child(17){
+    animation-delay: 3.2s;
+}
+
+
+.impresso .moi:nth-child(18){
+    animation-delay: 3.4s;
+}
+
+
+.impresso .moi:nth-child(19){
+    animation-delay: 3.6s;
+}
+
+
+.impresso .moi:nth-child(20){
+    animation-delay: 3.8s;
+}
+
+
+.impresso .moi:nth-child(21){
+    animation-delay: 4s;
+}
+
+.impresso .moi:nth-child(22){
+    animation-delay: 4.2s;
+}
+
+.impresso .moi:nth-child(23){
+    animation-delay: 4.4s;
+}
+
+.impresso .moi:nth-child(24){
+    animation-delay: 4.6s;
+}
+
+.impresso .moi:nth-child(25){
+    animation-delay: 4.8s;
+}
+
+.impresso .moi:nth-child(26){
+    animation-delay: 5s;
+}
+
+.impresso .moi:nth-child(27){
+    animation-delay: 5.2s;
+}
+
+.impresso .moi:nth-child(28){
+    animation-delay: 5.4s;
+}
+
+.impresso .moi:nth-child(29){
+    animation-delay: 5.6s;
+}
+
+.impresso .moi:nth-child(30){
+    animation-delay: 5.8s;
+}
+
+.impresso .moi:nth-child(31){
+    animation-delay: 6s;
+}
+
+.impresso .moi:nth-child(32){
+    animation-delay: 6.2s;
+}
+
+.impresso .moi:nth-child(33){
+    animation-delay: 6.4s;
+}
+
+.impresso .moi:nth-child(35){
+    animation-delay: 6.6s;
+}
+
+.impresso .moi:nth-child(36){
+    animation-delay: 6.8s;
+}
+
+.impresso .moi:nth-child(37){
+    animation-delay: 7s;
+}
+
+.impresso .moi:nth-child(38){
+    animation-delay: 7.2s;
+}
+
+
+.deux{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+    margin-top: 590px;
+    margin: 0 auto;
+    padding-top: 100PX;
+    visibility: hidden;
+}
+
+ .visible {
+  animation: com 1s ease-in-out;
+  display: block; /* L'élément se dépla;ce vers sa position d'origine */
+  border: 1PX solid gray;
+  display: flex;
+  align-items:center ;
+  justify-content: center;
+  border-radius: 20PX;
+  box-shadow: 0PX 38PX 5PX 5PX GRAY;
+  }
+  
+    .quete{
+       
+    }
+
+@keyframes com{
+    0%{
+        opacity: 0;
+        transform: translateY(70PX);
+    }
+
+    100%{
+        opacity: 1;
+        transform: translateY(0PX);
+    }
+}
